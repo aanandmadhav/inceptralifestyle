@@ -1,0 +1,1 @@
+(function(){"use strict";$(function($){var vWidth=$(window).width();$('#toggle-menu').click(function(){$(this).toggleClass('toggle-menu-visible').toggleClass('toggle-menu-hidden');var hidden=$('.main-nav');if(hidden.hasClass('visible')){hidden.animate({"left":'-'+vWidth*1.2},1000).removeClass('visible');}else{hidden.animate({"left":"0px"},1000).addClass('visible');}});});})();

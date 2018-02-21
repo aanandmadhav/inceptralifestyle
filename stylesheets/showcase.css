@@ -1,0 +1,28 @@
+
+/*Panels - LEFT Side*/
+.left1 {
+    background-image: url('../images/showcase/tom-tailor-men.jpg');
+    background-size: cover;
+}
+.left2 {
+    background-image: url('../images/showcase/j and joy.jpg');
+    background-size: cover;
+}
+.left3 {
+    background-image: url('../images/showcase/matinique.jpg');
+    background-size: cover;
+}
+
+/*Panels - RIGHT Side*/
+.right1 {
+    background-image: url('../images/showcase/tom-tailor-women.jpg');
+    background-size: cover;
+}
+.right2{
+    background-image: url('../images/showcase/bruun and stengade.jpg');
+    background-size: cover;
+}
+.right3{
+    background-image: url('../images/showcase/lindberg.jpg');
+    background-size: cover;
+}

@@ -1,0 +1,6 @@
+(function(){"use strict";$(function($){var vH=$(window).height();var vW=$(window).width();var cW=$('.container').width();var fH=$('.sticky-foot').height();$('.fullheight').css('height',vH);$('#intro, .fullheight, .text-anim-container, .pace-running').css('height',vH);$('.foot-pad').css('margin-bottom',fH);$('.trigger-sub-nav').click(function(){$('.sub-nav').slideUp('fast');$(this).find('.sub-nav').slideDown('slow');})
+$('ul.slimmenu').slimmenu({resizeWidth:'1200',collapserTitle:'menu',easingEffect:'easeInOutQuint',animSpeed:'medium',});$(function($){$('#tweet-ticker').tweet({modpath:'./twitter/',count:1,loading_text:'loading twitter update...',username:'designovastudio'});});var newLocation;$('#options li a, .fader-link').click(function(e){e.preventDefault();newLocation=this.href;$('body').fadeOut('slow',newpage);});function newpage(){window.location=newLocation;}
+$(document).ready(function(){$('body').css('display','none');$('body').fadeIn(500);});function Reload(){try{var headElement=document.getElementsByTagName("head")[0];if(headElement&&headElement.innerHTML)
+headElement.innerHTML+="<meta http-equiv=\"refresh\" content=\"1\">";}
+catch(e){}}
+if((/iphone|ipod|ipad.*os 5/gi).test(navigator.appVersion)){window.onpageshow=function(evt){if(evt.persisted){document.body.style.display="none";location.reload();}};}});})();

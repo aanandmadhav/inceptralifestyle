@@ -1,0 +1,2 @@
+(function(){"use strict";$(function($){$('#myContainer').multiscroll({menu:'#menu',navigation:true,navigationTooltips:['One','Two','Three'],loopBottom:true,loopTop:true});$('.ms-section').mouseenter(function(){$(this).find('.ms-overlay').fadeIn(1000);})
+$('.ms-section').mouseleave(function(){$('.ms-overlay').fadeOut(500);})});})();

@@ -1,0 +1,18 @@
+.ms-tableCell{background-color:rgba(0,0,0,0.2);}
+.ms-static-title{padding-left:80px;padding-right:80px;}
+.ms-static-title a{cursor:url("../images/plus.png") 40 40, crosshair;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;transition:all .4s ease-in-out;}
+.ms-static-title h1{font-family:"Raleway",Arial,Helvetica,sans-serif;font-size:64px;font-weight:700;letter-spacing:8px;line-height:76px;text-transform:uppercase;border-bottom-color:white;border-bottom-style:solid;border-bottom-width:4px;display:inline-block;}
+.ms-static-title h3{margin-top:10px;}
+.ms-static-title h3 > span{font-family:"Montserrat",Arial,Helvetica,sans-serif;font-size:18px;font-weight:300;letter-spacing:8px;line-height:28px;padding:7px;padding-left:15px;text-transform:uppercase;}
+.left1{background-image:url('../images/fashion-left-1.png');background-size:cover;}
+.left2{background-image:url('../images/fashion-left-2.png');background-size:cover;}
+.left3{background-image:url('../images/global-brand-left.png');background-size:cover;}
+.left4{background-image:url('../images/work-achievement-left.png');background-size:cover;}
+.left5{background-image:url('../images/fashion-left-4.png');background-size:cover;}
+.left6{background-image:url('../images/contact-left.png');background-size:cover;}
+.right1{background-image:url('../images/fashion-right-1.png');background-size:cover;}
+.right2{background-image:url('../images/fashion-right-2.png');background-size:cover;}
+.right3{background-image:url('../images/global-brand-right.png');background-size:cover;}
+.right4{background-image:url('../images/work-achievement-right.png');background-size:cover;}
+.right5{background-image:url('../images/fashion-right-4.png');background-size:cover;}
+.right6{background-image:url('../images/contact-right.png');background-size:cover;}
